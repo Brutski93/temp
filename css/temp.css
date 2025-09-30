@@ -1,0 +1,27 @@
+.pop-up {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #888888d9;
+}
+.pop-up-text {
+  width: 90vw;
+  height: 90vh;
+  margin: 4vh auto;
+  background-color: #f9dd9e;
+  color: #000;
+  position: relative;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pop-up-close {
+  position: absolute;
+  top: 5vw;
+  right: 5vw;
+  cursor: pointer;
+  font-size: 30px;
+}

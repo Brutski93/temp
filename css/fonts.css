@@ -1,0 +1,78 @@
+* {
+  letter-spacing: 0px;
+}
+@font-face {
+  font-family: Oswald-300;
+  src: url('fonts/Oswald-300.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Oswald-400;
+  src: url('fonts/Oswald-400.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Mulish-500;
+  src: url('fonts/Mulish-500.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Mulish-400;
+  src: url('fonts/Mulish-400.ttf') format('truetype');
+}
+
+.font_oswald_300 {
+  font-family: Oswald-300, sans-serif;
+  font-weight: 300;
+}
+
+.font_oswald_400 {
+  font-family: Oswald-400, sans-serif;
+  font-weight: 400;
+}
+
+.font_mulish_400 {
+  font-family: Mulish-400, sans-serif;
+  font-weight: 400;
+}
+.font_mulish_500 {
+  font-family: Mulish-500, sans-serif;
+  font-weight: 500;
+}
+
+.font_12 {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.font_16 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font_20 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.font_32 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.font_48 {
+  font-size: 48px;
+  line-height: 54px;
+}
+h1 {
+  font-size: 116px;
+  line-height: 132px;
+}
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+.italic {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 20px;
+}

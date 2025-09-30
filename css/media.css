@@ -1,0 +1,169 @@
+@media (max-width: 1440px) {
+  .wrapper {
+    width: 100vw;
+    margin: 0;
+  }
+}
+/* --------------------------------------------------- header ---------------------------------------------------------- */
+@media (max-width: 800px) {
+  nav {
+    display: none;
+  }
+  .burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    padding: 24px 20px;
+    cursor: pointer;
+  }
+  .burger-dash1 {
+    width: 12px;
+    height: 2px;
+    background-color: var(--white);
+    align-self: flex-end;
+  }
+  .burger-dash2  {
+    width: 20px;
+    height: 2px;
+    background-color: var(--white);
+  }
+}
+/* --------------------------------------------------- hero ---------------------------------------------------------- */
+@media (max-width: 1400px) {
+  .hero {
+    min-height: 758px;
+    gap: 0;
+  }
+  .hero-sidebar-content {
+    width: calc(100vw * 13 / 84 + 3634px / 7);
+  }
+  .hero-main {
+    margin-left: 40px;
+  }
+  .hero-photo1 {
+    display: none;
+  }
+  h1 {
+    font-size: calc(100vw / 14 + 92px / 7);
+    line-height: calc(100vw * 13 / 168 + 144px / 7);
+  }
+  .hero-photo2-img {
+    width: calc(100vw * 5 / 56 + 1060px / 7);
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 68px;
+    line-height: 80px;
+  }
+  .hero-photo2-img {
+    width: 220px;
+  }
+}
+@media (max-width: 700px) {
+  .hero-sidebar, .hero-main-button {
+    display: none;
+  }
+  .hero {
+    flex-direction: column;
+    padding: 60px 20px 57px;
+  }
+  .hero-main {
+    margin: 0 auto;
+    max-width: 380px;
+    flex-grow: 0;
+  }
+  .hero-main-content-nums {
+    gap: 0;
+    justify-content: space-between;
+  }
+  h1 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+  .hero-photo2 {
+    margin-top: 20.5px;
+    align-self: flex-end;
+    gap: 61.5px;
+  }
+}
+/* --------------------------------------------------- about ---------------------------------------------------------- */
+@media (max-width: 1400px) {
+  .hidden1440 {
+    display: none;
+  }
+  .about {
+    flex-direction: column;
+    margin-top: -1px;
+    gap: 40px;
+  }
+  .about-div {
+    width: calc(100vw - 40px);
+    gap: 40px;
+  }
+  .about-photo {
+    height: calc(100vw - 40px);
+  }
+}
+@media (max-width: 381px) {
+  .about {
+    margin-top: 0;
+  }
+}
+/* --------------------------------------------------- portfolio ---------------------------------------------------------- */
+@media (max-width: 1440px) {
+  .portfolio {
+    overflow: hidden;
+  }
+}
+/* --------------------------------------------------- price ---------------------------------------------------------- */
+@media (max-width: 1440px) {
+  .price-content {
+    gap: 20px;
+  }
+}
+@media (max-width: 381px) {
+  .price-content-div { /* magic trick */
+    padding: 23px 24px 23px 22px;
+    border: 1.5px var(--black) solid;
+    width: 319px;
+  }
+}
+/* --------------------------------------------------- faq ---------------------------------------------------------- */
+@media (max-width: 1150px) {
+  .faq {
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .faq-left, .faq-right {
+    width: calc(100vw - 40px);
+  }
+}
+/* --------------------------------------------------- contacts ---------------------------------------------------------- */
+@media (max-width: 1020px) {
+  .contacts-content {
+    width: calc(100vw - 40px);
+  }
+  .contacts-content-div {
+    width: calc(100vw - 512px);
+  }
+}
+@media (max-width: 730px) {
+  .contacts-content {
+    flex-direction: column;
+  }
+  .contacts-content-div, .contacts-content-button {
+    width: calc(100vw - 40px);
+  }
+}
+/* --------------------------------------------------- footer ---------------------------------------------------------- */
+@media (max-width: 560px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
